@@ -1,4 +1,4 @@
-package com.example.mall.DAO;
+package com.example.mall.dao;
 
 import lombok.AllArgsConstructor;
 import lombok.Getter;

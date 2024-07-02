@@ -1,6 +1,6 @@
 package com.example.mall.services;
 
-import com.example.mall.DAO.UserDAO;
+import com.example.mall.dao.UserDAO;
 import com.example.mall.models.Role;
 import com.example.mall.models.User;
 import com.example.mall.repositories.UserRepository;
