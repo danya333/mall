@@ -16,7 +16,7 @@ public class SecurityConfig {
                     .requestMatchers("/user/create")
                     .permitAll();
             authorization
-                    .requestMatchers("product/create")
+                    .requestMatchers("mall/products/create")
                     .hasRole("admin");
             authorization
                     .anyRequest()

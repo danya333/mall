@@ -41,3 +41,12 @@ create table orders_products
     foreign key (order_id) references orders (id),
     foreign key (product_id) references products (id)
 );
+
+create table file_info
+(
+    id            serial8,
+    name          varchar not null,
+    size          int8    not null,
+    key           varchar not null,
+    creation_date date    not null
+);
